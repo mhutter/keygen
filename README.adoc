@@ -1,0 +1,20 @@
+= keygen
+
+CLI tool to genereate base64-encoded AES keys.
+
+*Why?*
+Generate AES keys without restricting yourself to the keyspace of printable characters.
+
+
+== Usage
+
+    keygen LENGTH
+
+== License
+
+MIT (see link:LICENSE[LICENSE])
+
+---
+> https://hutter.io/[Manuel Hutter] -
+> GitHub https://github.com/mhutter[@mhutter] -
+> Twitter https://twitter.com/dratir[@dratir]
