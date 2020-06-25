@@ -8,7 +8,23 @@ Generate AES keys without restricting yourself to the keyspace of printable char
 
 == Usage
 
-    keygen LENGTH
+    $ keygen 16
+    dn6FBfeyi9vgNoXtbE1x4w==
+
+
+== Installation
+
+=== Homebrew (macOS)
+
+    brew install mhutter/tap/keygen
+
+=== go get (any OS)
+
+    go get -u github.com/mhutter/keygen
+
+
+Or https://github.com/mhutter/keygen/releases[download a pre-built binary].
+
 
 == License
 
